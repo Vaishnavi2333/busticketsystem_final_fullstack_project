@@ -22,7 +22,7 @@ export default function AdminBusManagement() {
     }
   };
 
-  // Delete bus
+  
   const deleteBus = async (id) => {
     if (window.confirm(`Are you sure you want to delete bus ${id}?`)) {
       try {
@@ -83,7 +83,7 @@ export default function AdminBusManagement() {
         </button>
       </div>
 
-      {/* Table */}
+    
       <table className="table table-bordered table-striped shadow-sm">
         <thead className="table-primary text-center">
           <tr>

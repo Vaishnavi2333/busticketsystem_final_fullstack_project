@@ -190,22 +190,7 @@ export function HomePage() {
         </div>
       </div>
 
-      {/* <div style={{ marginTop: "30px" }}>
-        <a
-          href="/login"
-          className="btn btn-primary me-3"
-          style={{ padding: "10px 25px", fontSize: "1rem" }}
-        >
-          Login
-        </a>
-        <a
-          href="/register"
-          className="btn btn-success"
-          style={{ padding: "10px 25px", fontSize: "1rem" }}
-        >
-          Register
-        </a>
-      </div> */}
+     
     </div>
   );
 }
